@@ -228,9 +228,6 @@ export default class App extends Component {
     if (e.key === "%") {
       this.handlePercentage();
     }
-    if (e.key === "%") {
-      this.handlePercentage();
-    }
   };
   componentDidMount() {
     window.addEventListener("keydown", (e) => this.keyboardCyfral(e));
